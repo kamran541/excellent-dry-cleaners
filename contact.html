@@ -5,6 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contact Us - Excellent Dry Cleaners</title>
   <link rel="stylesheet" href="style.css" />
+  <title>Social Icons Example</title>
+  <style>
+    .social-icons {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 20px;
+      z-index: 1000;
+    }
+
+    .social-icons img {
+      width: 40px;
+      height: auto;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -23,12 +41,15 @@
     <input type="hidden" name="_captcha" value="false" />
     <button type="submit">Send</button>
   </form>
-        <a href="https://www.instagram.com/excellent_dry_cleaners/" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuH7c5cLpGehi0b4iQk90fXUzC9p7Ebla13w&s" width="28px"
-                                                                                       alt="instagram-logo"> </a>
-    <a href="https://www.facebook.com/profile.php?id=61576911392531" target="_blank"> <img src="data:image/jpeg;base64,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"
-                                                                                        width="28px"
-                                                                                        alt="feacbook-logo"> </a>
-    
+        <!-- Instagram aur Facebook icon -->
+  <div class="social-icons">
+    <a href="https://www.instagram.com/excellent_dry_cleaners/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com/excellentdrycleaners/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+  </div>
 </main>
 </body>
 </html>
