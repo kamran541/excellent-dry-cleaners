@@ -84,16 +84,13 @@ form input, form textarea, form button {
   padding: 10px;
 }
 
-.instagaram-icon {
-  position: fixed;
-  bottom: 20px;
-  se distance */
-  left: 50%;
-  Horizontally center */
-  transform: translateX(-50%);
-  size */
-  height: auto;
-  z-index:9999;
-  dikhega sabse */
-  cursor : pointer;
+.section-heading {
+  width: 100%;
+  max-width: 100%;
+  text-algin: left;
+  backgroung-color: #fofofo;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  
 }
