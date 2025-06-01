@@ -87,10 +87,6 @@ form input, form textarea, form button {
 .section-heading {
   width: 100%;
   max-width: 100%;
-  text-algin: left;
-  backgroung-color: #fofofo;
-  padding: 10px;
-  margin: 0;
-  box-sizing: border-box;
+  margin:0 auto;
   
 }
