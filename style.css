@@ -83,3 +83,17 @@ form input, form textarea, form button {
   margin-bottom: 10px;
   padding: 10px;
 }
+
+.instagaram-icon {
+  position: fixed;
+  bottom: 20px;
+  se distance */
+  left: 50%;
+  Horizontally center */
+  transform: translateX(-50%);
+  size */
+  height: auto;
+  z-index:9999;
+  dikhega sabse */
+  cursor : pointer;
+}
