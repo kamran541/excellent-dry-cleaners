@@ -5,6 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Excellent Dry Cleaners</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+  h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  input[type="number"] {
+    width: 60px;
+    padding: 5px;
+  }
+</style>
 </head>
 <body>
   <header>
@@ -18,43 +48,134 @@
   <main>
   <form action="https://formsubmit.co/zainraza6156@gmail.com" method="POST">
     <h2>Men's Clothing</h2>
-    <div class="clothing-section">
-      <div class="item">
-        <span>Shorts/Tie</span>
-        <span>₹45.00</span>
-        <input type="number" name="Men_Shirt/Tie" min="0" placeholder="Qty" />
-        </div>
-      <div class="item">
-        <span>Shirt/T-Shirt/Kurta</span>
-        <span>₹85.00</span>
-        <input type="number" name="Men_Shirt/T-Shirt/Kurta" min="0" placeholder="Qty" />
-        </div>
-        <div class="item">
-        <span>Jeans</span>
-        <span>₹90.00</span>
-        <input type="number" name="Men_Jeans" min="0" placeholder="Qty" />
-      </div>
-      <div class="item">
-        <span>Trouser</span>
-        <span>₹85.00</span>
-        <input type="number" name="Men_Trouser" min="0" placeholder="Qty" />
-      </div>
-      <div class="item">
-        <span>Pajama</span>
-        <span>₹85.00</span>
-        <input type="number" name="Men_Pajama" min="0" placeholder="Qty" />
-      </div>
-      <div class="item">
-        <span>Panjabi/Dhoti</span>
-        <span>₹100.00</span>
-        <input type="number" name="Men_Panjabi/Dhoti" min="0" placeholder="Qty" />
-      </div>
-      <div class="item">
-        <span>panjabi/dhoti(heavy)</span>
-        <span>₹125-200</span>
-        <input type="number" name="Men_Panjabi/Dhoti(heavy)" min="0" placeholder="Qty" />
-      </div>
-    </div>
+    <table>
+  <tr>
+    <th>Item</th>
+    <th>Wash & Steam</th>
+    <th>Premium</th>
+    <th>Dry-Clean</th>
+    <th>Qty</th>
+  </tr>
+  <tr>
+    <td>Shorts/Tie</td>
+    <td>₹20.00</td>
+    <td>₹35.00</td>
+    <td>₹45.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Shirt/T-Shirt/Kurta</td>
+    <td>₹30.00</td>
+    <td>₹55.00</td>
+    <td>₹85.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Trousers</td>
+    <td>₹30.00</td>
+    <td>₹55.00</td>
+    <td>₹85.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Jeans</td>
+    <td>₹35.00</td>
+    <td>₹60.00</td>
+    <td>₹90.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Pajama</td>
+    <td>₹30.00</td>
+    <td>₹55.00</td>
+    <td>₹85.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Panjabi/Dhoti</td>
+    <td>₹40.00</td>
+    <td>₹75.00</td>
+    <td>₹100.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Panjabi/Dhoti (Heavy)</td>
+    <td>--</td>
+    <td>₹100/150</td>
+    <td>₹125/200</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Sweater</td>
+    <td>--</td>
+    <td>₹80/100/150</td>
+    <td>₹100/125/150</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>HIgh neck Tshirt/jeans Shirt</td>
+    <td>₹50.00</td>
+    <td>₹75.00</td>
+    <td>₹100/150</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Pull Over</td>
+    <td>--</td>
+    <td>₹100/150</td>
+    <td>₹125/250</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Jacket</td>
+    <td>--</td>
+    <td>₹120/200</td>
+    <td>₹125/250</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Leather Jacket(polish)</td>
+    <td>--</td>
+    <td>--</td>
+    <td>₹350.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Waistcoat/Johore coat</td>
+    <td>--</td>
+    <td>--</td>
+    <td>₹125/175</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Blazer/coat</td>
+    <td>--</td>
+    <td>--</td>
+    <td>₹225.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Suit (2pcs)</td>
+    <td>--</td>
+    <td>--</td>
+    <td>₹280.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Long coat</td>
+    <td>--</td>
+    <td>--</td>
+    <td>₹300.00</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+  <tr>
+    <td>Sherwani</td>
+    <td>--</td>
+    <td>--</td>
+    <td>₹300/350</td>
+    <td><input type="number" min="0" placeholder="Qty"></td>
+  </tr>
+</table>
 
     <h2>Women's Clothing</h2>
     <div class="clothing-section">
